@@ -8,12 +8,12 @@ import uz.pdp.bikeservice.service.BikeService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/bike")
+@RequestMapping("/api/v1/bike")
 public class BikeController {
 
     private final BikeService bikeService;
 
-    @PostMapping()
+    @PostMapping("/add")
     public boolean add(@RequestBody BikeRequestDto bikeRequestDto){
         return bikeService.add(bikeRequestDto);
     }
