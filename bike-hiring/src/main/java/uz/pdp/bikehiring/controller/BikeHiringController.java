@@ -1,10 +1,10 @@
-package uz.pdp.bikereservation.controller;
+package uz.pdp.bikehiring.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-public class BikeReservationController {
+public class BikeHiringController {
 
 }

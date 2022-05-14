@@ -1,13 +1,13 @@
-package uz.pdp.bikereservation;
+package uz.pdp.bikehiring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BikeReservationApplication {
+public class BikeHiringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BikeReservationApplication.class, args);
+        SpringApplication.run(BikeHiringApplication.class, args);
     }
 
 }

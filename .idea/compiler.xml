@@ -2,20 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bike-service" />
         <module name="eureka-service" />
-        <module name="BIKE-SHARING-MICROSERVICES" />
-        <module name="user-service" />
         <module name="location-service" />
         <module name="bike-hiring" />
+        <module name="bike-reservation" />
+        <module name="BIKE-SHARING-MICROSERVICES" />
+        <module name="user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bike-hiring" target="11" />
+      <module name="bike-reservation" target="11" />
       <module name="bike-service" target="11" />
       <module name="BIKE-SHARING-MICROSERVICES" target="11" />
       <module name="eureka-service" target="11" />
@@ -27,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BIKE-SHARING-MICROSERVICES" options="-parameters" />
       <module name="bike-hiring" options="-parameters" />
+      <module name="bike-reservation" options="-parameters" />
       <module name="bike-service" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
       <module name="location-service" options="-parameters" />

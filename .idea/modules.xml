@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BIKE-SHARING-MICROSERVICES.iml" filepath="$PROJECT_DIR$/BIKE-SHARING-MICROSERVICES.iml" />
       <module fileurl="file://$PROJECT_DIR$/bike-reservation/bike-hiring.iml" filepath="$PROJECT_DIR$/bike-reservation/bike-hiring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bike-hiring/bike-reservation.iml" filepath="$PROJECT_DIR$/bike-hiring/bike-reservation.iml" />
       <module fileurl="file://$PROJECT_DIR$/bike-service/bike-service.iml" filepath="$PROJECT_DIR$/bike-service/bike-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/location-service/location-service.iml" filepath="$PROJECT_DIR$/location-service/location-service.iml" />

@@ -1,4 +1,4 @@
-package uz.pdp.bikereservation;
+package uz.pdp.bikehiring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
